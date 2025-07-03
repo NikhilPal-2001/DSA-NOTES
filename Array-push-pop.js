@@ -20,7 +20,10 @@ Arr.unshift(10);//[0,1,2,3,4,5,6] = [10,0,1,2,3,4,5,6]
 // console.log(Arr); //[10,0,1,2,3,4,5,6]
 
 // shift operation
-// shift Operation is perform is 
+// shift Operation is perform is delete element is start 
+Arr.shift()
+Arr.shift()
+Arr.shift()
 Arr.shift()
 console.log(Arr);
 
