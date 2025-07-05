@@ -56,7 +56,7 @@ Arr.shift()//[3,4,5,6]
     //console.log(A4.sort())
     // console.log(A5)
 
-    // splice operation
+    // splice operation and 
     
     let A6 = [1,2,3,4,5,6,7,8]
    // A6.splice(2,0,11,22,33)
@@ -68,7 +68,8 @@ Arr.shift()//[3,4,5,6]
     //A6.splice(1,6)
     //console.log(A6)// [1,8]
 
-    A6.splice(5)
-    console.log(A6)
+    A6.slice(5)
+
+    console.log(A6) 
 
 
