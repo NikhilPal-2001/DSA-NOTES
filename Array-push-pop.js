@@ -26,6 +26,7 @@ Arr.shift()//[0,1,2,3,4,5,6]
 Arr.shift()//[1,2,3,4,5,6]
 Arr.shift()//[2,3,4,5,6]
 Arr.shift()//[3,4,5,6]
+console.log(Arr)
 // console.log(Arr);//[3,4,5,6]
 
 // includes operation
@@ -34,13 +35,15 @@ Arr.shift()//[3,4,5,6]
 //console.log(Arr.includes(7)) //false
 
 //indexof operation
-//console.log(Arr.indexOf(6))
+// console.log(Arr.indexOf(6))
 //console.log(Arr.indexOf(3))
 
-// const NewArr = Arr.join()
-        // console.log(NewArr);
-        // console.log(typeof(NewArr));
-        // console.log(typeof(Arr));
+//join operation 
+const NewArr = Arr.join()
+        // Arr = [3,4,5,6]
+        console.log(NewArr);
+        console.log(typeof(NewArr));
+        console.log(typeof(Arr));
 
         // concat two Array 
     let A1 = [1,2,3]
@@ -68,8 +71,8 @@ Arr.shift()//[3,4,5,6]
     //A6.splice(1,6)
     //console.log(A6)// [1,8]
 
-    A6.slice(5)
+    // A6.slice(5)
 
-    console.log(A6) 
+    // console.log(A6) 
 
 
