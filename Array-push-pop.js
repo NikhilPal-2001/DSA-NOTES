@@ -39,23 +39,23 @@ console.log(Arr)
 //console.log(Arr.indexOf(3))
 
 //join operation 
-const NewArr = Arr.join()
+// const NewArr = Arr.join()
         // Arr = [3,4,5,6]
-        console.log(NewArr);
-        console.log(typeof(NewArr));
-        console.log(typeof(Arr));
+        // console.log(NewArr);
+        // console.log(typeof(NewArr));
+        // console.log(typeof(Arr));
 
         // concat two Array 
-    let A1 = [1,2,3]
-    let A2 = [4,5,6]
-    let A3 = [7,8,9]
+    // let A1 = [1,2,3]
+    // let A2 = [4,5,6]
+    // let A3 = [7,8,9]
     //console.log(A1.concat(A2,A3)) // Output = [1,2,3,4,5,6,7,8,9]
 
     // sort operation
     //sort operation is perform is sort in array alphabetically 
     let A4 = [9,4,7,5,2,1,6,8]
-    let A5 = [];
-    A5 = A4.sort()
+    // let A5 = [];
+    // A5 = A4.sort()
     //console.log(A4.sort())
     // console.log(A5)
 
@@ -71,8 +71,8 @@ const NewArr = Arr.join()
     //A6.splice(1,6)
     //console.log(A6)// [1,8]
 
-    // A6.slice(5)
+    A6.slice(5)
 
-    // console.log(A6) 
+    console.log(A6) 
 
 
