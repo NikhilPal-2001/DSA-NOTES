@@ -26,7 +26,7 @@ Arr.shift()//[0,1,2,3,4,5,6]
 Arr.shift()//[1,2,3,4,5,6]
 Arr.shift()//[2,3,4,5,6]
 Arr.shift()//[3,4,5,6]
-console.log(Arr)
+// console.log(Arr)
 // console.log(Arr);//[3,4,5,6]
 
 // includes operation
@@ -68,10 +68,10 @@ console.log(Arr)
     //A6.splice(2,0,10)
     //console.log(A6) //[1,2,10,3,4,5,6,7,8]
 
-    //A6.splice(1,6)
-    //console.log(A6)// [1,8]
+    // A6.splice(1,6)
+    // console.log(A6)// [1,8]
 
-    A6.slice(5)
+    A6.slice(0,5)
 
     console.log(A6) 
 
